@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SPTheme'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SPTheme.'
+  s.summary          = 'A theme helper for app'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,23 +18,23 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Provide SPColor,SPSize
                        DESC
 
-  s.homepage         = 'https://github.com/sayiwen/SPTheme'
+  s.homepage         = 'https://github.com/sayiwen/SPTheme-OC'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sayiwen' => 'sayiwen@163.com' }
-  s.source           = { :git => 'https://github.com/sayiwen/SPTheme.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/sayiwen/SPTheme-OC.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'SPTheme/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SPTheme' => ['SPTheme/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'SPTheme' => ['SPTheme/Assets/*.plist','SPTheme/Assets/*.ttf']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4E8F11EEB1B8D04B5A794BD7 /* Pods_SPTheme_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53F3C97294722458C6906BF /* Pods_SPTheme_Tests.framework */; };
+		5CE872362A8F6C720086807F /* ALKATIPBasmaTom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CE872352A8F6C720086807F /* ALKATIPBasmaTom.ttf */; };
+		5CE872392A8F789E0086807F /* SPColor+Exam.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE872382A8F789E0086807F /* SPColor+Exam.m */; };
+		5CE8723B2A8F7A030086807F /* theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CE8723A2A8F7A030086807F /* theme.plist */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,10 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		39A85E4F7CDE18B466C32DDA /* SPTheme.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SPTheme.podspec; path = ../SPTheme.podspec; sourceTree = "<group>"; };
+		39A85E4F7CDE18B466C32DDA /* SPTheme.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SPTheme.podspec; path = ../SPTheme.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		462494CFE79BC23C06150DB9 /* Pods-SPTheme_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPTheme_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SPTheme_Tests/Pods-SPTheme_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		49FA0A8FE80D278EB461E3FA /* Pods-SPTheme_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPTheme_Tests.release.xcconfig"; path = "Target Support Files/Pods-SPTheme_Tests/Pods-SPTheme_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4BB4BD7B27013BFE27D923A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4BB4BD7B27013BFE27D923A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5CE872352A8F6C720086807F /* ALKATIPBasmaTom.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ALKATIPBasmaTom.ttf; sourceTree = "<group>"; };
+		5CE872372A8F789E0086807F /* SPColor+Exam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SPColor+Exam.h"; sourceTree = "<group>"; };
+		5CE872382A8F789E0086807F /* SPColor+Exam.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SPColor+Exam.m"; sourceTree = "<group>"; };
+		5CE8723A2A8F7A030086807F /* theme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = theme.plist; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SPTheme_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPTheme_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +73,7 @@
 		A53F3C97294722458C6906BF /* Pods_SPTheme_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPTheme_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC1465407B764AB2431DEC79 /* Pods-SPTheme_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPTheme_Example.debug.xcconfig"; path = "Target Support Files/Pods-SPTheme_Example/Pods-SPTheme_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DF9B64714D282174D974093A /* Pods_SPTheme_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPTheme_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F643A20BCCD352C62B5262B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F643A20BCCD352C62B5262B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +139,8 @@
 		6003F593195388D20070C39A /* Example for SPTheme */ = {
 			isa = PBXGroup;
 			children = (
+				5CE8723A2A8F7A030086807F /* theme.plist */,
+				5CE872352A8F6C720086807F /* ALKATIPBasmaTom.ttf */,
 				6003F59C195388D20070C39A /* SPAppDelegate.h */,
 				6003F59D195388D20070C39A /* SPAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -140,6 +149,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				5CE872372A8F789E0086807F /* SPColor+Exam.h */,
+				5CE872382A8F789E0086807F /* SPColor+Exam.m */,
 			);
 			name = "Example for SPTheme";
 			path = SPTheme;
@@ -193,7 +204,6 @@
 				462494CFE79BC23C06150DB9 /* Pods-SPTheme_Tests.debug.xcconfig */,
 				49FA0A8FE80D278EB461E3FA /* Pods-SPTheme_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +268,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -279,7 +290,9 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				5CE872362A8F6C720086807F /* ALKATIPBasmaTom.ttf in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				5CE8723B2A8F7A030086807F /* theme.plist in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* SPAppDelegate.m in Sources */,
+				5CE872392A8F789E0086807F /* SPColor+Exam.m in Sources */,
 				6003F5A7195388D20070C39A /* SPViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

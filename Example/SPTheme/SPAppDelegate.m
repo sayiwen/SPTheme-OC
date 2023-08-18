@@ -7,12 +7,15 @@
 //
 
 #import "SPAppDelegate.h"
-
+#import <SPTheme/SPTheme.h>
 @implementation SPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [SPTheme shareInstance].isRTL = YES;
+    [SPTheme shareInstance].lightTheme = @"red";
+    [SPTheme shareInstance].fontFamily = @"ALKATIP Basma Tom";
     return YES;
 }
 
