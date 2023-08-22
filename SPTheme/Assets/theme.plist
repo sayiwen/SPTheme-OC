@@ -15,6 +15,12 @@
 		</dict>
 		<key>colors</key>
 		<dict>
+			<key>warning</key>
+			<string>#d39e00</string>
+			<key>info</key>
+			<string>#01b8ff</string>
+			<key>success</key>
+			<string>#19b159</string>
 			<key>secondText</key>
 			<string>#9B9B9B</string>
 			<key>text</key>
@@ -40,6 +46,8 @@
 		</dict>
 		<key>colors</key>
 		<dict>
+			<key>border</key>
+			<string>#f0f2f8</string>
 			<key>success</key>
 			<string>#19b159</string>
 			<key>info</key>
