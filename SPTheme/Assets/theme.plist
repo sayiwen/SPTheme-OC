@@ -15,6 +15,8 @@
 		</dict>
 		<key>colors</key>
 		<dict>
+			<key>border</key>
+			<string>#f0f2f8</string>
 			<key>warning</key>
 			<string>#d39e00</string>
 			<key>info</key>
