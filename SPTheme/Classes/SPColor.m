@@ -58,4 +58,15 @@
     return [self.theme adaptColor:@"warning"];
 }
 
+//info
++ (UIColor *)info{
+    return [self.theme adaptColor:@"info"];
+}
+
+
+//white
++ (UIColor *)white{
+    return [UIColor whiteColor];
+}
+
 @end

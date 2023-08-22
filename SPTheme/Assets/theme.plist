@@ -7,18 +7,24 @@
 		<key>sizes</key>
 		<dict>
 			<key>title</key>
-			<string>20</string>
+			<string>18</string>
+			<key>body</key>
+			<string>16</string>
+			<key>smallBody</key>
+			<string>14</string>
 		</dict>
 		<key>colors</key>
 		<dict>
-			<key>test</key>
-			<string>#07C160</string>
+			<key>secondText</key>
+			<string>#9B9B9B</string>
 			<key>text</key>
-			<string>#efefef</string>
+			<string>#eeeeee</string>
 			<key>primary</key>
 			<string>#6B50FF</string>
 			<key>background</key>
 			<string>#000000</string>
+			<key>secondBackground</key>
+			<string>#181818</string>
 		</dict>
 	</dict>
 	<key>default</key>
@@ -27,19 +33,31 @@
 		<dict>
 			<key>title</key>
 			<string>18</string>
+			<key>body</key>
+			<string>16</string>
+			<key>smallBody</key>
+			<string>14</string>
 		</dict>
 		<key>colors</key>
 		<dict>
-			<key>test</key>
-			<string>#dd4b39</string>
+			<key>success</key>
+			<string>#19b159</string>
+			<key>info</key>
+			<string>#01b8ff</string>
+			<key>warning</key>
+			<string>#d39e00</string>
 			<key>text</key>
-			<string>#0d0d0d</string>
+			<string>#424242</string>
+			<key>secondText</key>
+			<string>#9B9B9B</string>
 			<key>primary</key>
 			<string>#6B50FF</string>
 			<key>background</key>
 			<string>#ffffff</string>
 			<key>danger</key>
 			<string>#dd4b39</string>
+			<key>secondBackground</key>
+			<string>#ffffff</string>
 		</dict>
 	</dict>
 </dict>

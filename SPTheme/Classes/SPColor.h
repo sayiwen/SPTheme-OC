@@ -20,6 +20,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIColor *)danger;
 + (UIColor *)success;
 + (UIColor *)warning;
++ (UIColor *)info;
++ (UIColor *)white;
 @end
 
 NS_ASSUME_NONNULL_END

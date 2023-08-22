@@ -29,6 +29,28 @@
     return theme;
 }
 
++ (NSTextAlignment)getTextAlignment{
+    if ([[SPTheme shareInstance] isRTL]) {
+        return NSTextAlignmentRight;
+    }
+    return NSTextAlignmentLeft;
+}
+
++ (NSWritingDirection)getWritingDirection{
+    if ([[SPTheme shareInstance] isRTL]) {
+        return NSWritingDirectionRightToLeft;
+    }
+    return NSWritingDirectionLeftToRight;
+}
+
++ (UISemanticContentAttribute)getSemanticContentAttribute{
+    if ([[SPTheme shareInstance] isRTL]) {
+        return UISemanticContentAttributeForceRightToLeft;
+    }
+    return UISemanticContentAttributeForceLeftToRight;
+}
+
+
 - (NSBundle *)bundle{
     NSBundle *classBundle = [NSBundle bundleForClass:self.class];
     NSBundle * bundle = [NSBundle bundleWithURL:[classBundle URLForResource:@"SPTheme" withExtension:@"bundle"]];
@@ -177,5 +199,10 @@
         self.fontFamily = @"UKIJ Tuz Tom";
     }
     return [UIFont fontWithName:self.fontFamily size:size];
+}
+
+//adapt String
+- (NSString *)adaptString:(NSString *)key{
+    return key;
 }
 @end

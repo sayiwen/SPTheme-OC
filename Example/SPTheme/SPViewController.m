@@ -27,10 +27,6 @@
     title.textColor = SPColor.primary;
     
     [self.view addSubview:title];
-    
-    
-    
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning

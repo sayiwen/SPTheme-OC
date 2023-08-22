@@ -11,10 +11,18 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+#define SPString(key) [[SPTheme shareInstance] adaptString:key]
+
 @interface SPTheme : NSObject
 
 //share instance
 + (instancetype)shareInstance;
+
++ (NSTextAlignment)getTextAlignment;
+
++ (NSWritingDirection)getWritingDirection;
+
++ (UISemanticContentAttribute)getSemanticContentAttribute;
 
 @property (nonatomic, assign) BOOL isRTL;
 
@@ -27,6 +35,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (UIColor *)adaptColor:(NSString *)key;
 
 - (UIFont *)adaptSize:(NSString *)key;
+
+- (NSString *)adaptString:(NSString *)key;
 @end
 
 NS_ASSUME_NONNULL_END

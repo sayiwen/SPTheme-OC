@@ -14,8 +14,7 @@
 {
     // Override point for customization after application launch.
     [SPTheme shareInstance].isRTL = YES;
-    [SPTheme shareInstance].lightTheme = @"red";
-    [SPTheme shareInstance].fontFamily = @"ALKATIP Basma Tom";
+    [SPTheme shareInstance].lightTheme = @"default";
     return YES;
 }
 
