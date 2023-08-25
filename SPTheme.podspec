@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SPTheme'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A theme helper for app'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Provide SPColor,SPSize
   s.source           = { :git => 'https://github.com/sayiwen/SPTheme-OC.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'SPTheme/Classes/**/*'
   
